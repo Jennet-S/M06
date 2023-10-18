@@ -7,6 +7,7 @@ import Exercise2 from "../pages/Exercise2";
 import Exercise3 from "../pages/Exercise3";
 import Exercise6 from "../pages/Exercise6";
 import PageNotFound from "../pages/PageNotFound";
+import CatsFilter from '../pages/CatsFilter';
 
 
 function AppRoutes(props) {
@@ -17,6 +18,9 @@ function AppRoutes(props) {
 
         <Route path="exercise1" element={<Exercise1 />} />
         <Route path="exercise2" element={<Exercise2 />} />
+        <Route path="catsfilter" element={<CatsFilter />}/>
+
+
         <Route path="exercise3" element={<Exercise3 />} />
         <Route path="exercise6" element={<Exercise6 />} />
 

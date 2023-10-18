@@ -30,7 +30,7 @@ h1 {
   }
 
 
-  /* exercise 2 */
+  /* exercise 2, 4, 6 */
   
   .cats-image { 
   height: 200px;
@@ -47,6 +47,12 @@ h1 {
   font-style: italic;
 }
 
+.catsfilter {
+  background-color: burlywood;
+  color: black;
+  margin: 1em;
+}
+
 /* exercise 3 */
 .emoji-container {
   display: flex;
@@ -60,4 +66,9 @@ h1 {
   font-size: 50px;
   color: whitesmoke;
   background-color: skyblue;
+}
+
+/* exercise 6 */
+.result{
+  font-size: 100px;
 }

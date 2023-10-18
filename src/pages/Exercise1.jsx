@@ -13,7 +13,7 @@ function Exercise1() {
 
     return(
         <div className="exercise1">
-            <h1>Exercise 1</h1>
+            <h1>Greetings</h1>
             <input type="text" placeholder="Input name here" value={name} onChange={nameChange}/>
             <Greeting name={name}></Greeting>
             <img src="https://img.freepik.com/premium-vector/cartoon-earth-with-face-cloud-top_835197-6050.jpg" alt="globe cartoon" />
