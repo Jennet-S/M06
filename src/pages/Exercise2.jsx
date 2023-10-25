@@ -7,7 +7,7 @@ function Exercise2() {
         <>
         <div className="exercise2">
             <h1>Baby Cats</h1>        
-            <button onClick={() => navigate('/catsfilter')} className="catsfilter">Form</button>
+            <button onClick={() => navigate('/CatsForm')} className="CatsForm">Form</button>
             <BigCats/>
         </div>
     </>

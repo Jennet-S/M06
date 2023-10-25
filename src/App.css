@@ -47,10 +47,32 @@ h1 {
   font-style: italic;
 }
 
-.catsfilter {
+.CatsForm {
   background-color: burlywood;
   color: black;
   margin: 1em;
+}
+
+.cats-form-list {
+  list-style-type: none;
+}
+
+.new-cat-form-input {
+  display:flex;
+}
+
+.new-cat-form-input input{
+  margin: 10px;
+}
+
+.cats-form-list button {
+  background-color: burlywood;
+  color: black;
+}
+
+.new-cat-form-button {
+  background-color: burlywood;
+  color: black;
 }
 
 /* exercise 3 */
