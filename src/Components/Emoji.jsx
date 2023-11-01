@@ -21,6 +21,7 @@ const changeEmoji = () => {
     }
 };
 
+//try change by index
 
 return (
     <div className='emoji-container'>

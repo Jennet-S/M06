@@ -27,6 +27,8 @@ function BigCats() {
         return 0;
     });
 
+    //add reverse() add sort()
+
     return (
         <>
             <div className="sort-button">
